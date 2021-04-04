@@ -1,0 +1,37 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat application for local usage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudheeshshetty/Chat"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sudheesh Shetty",
+  "license": "MIT",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "angular": "^1.8.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^4.13.21",
+    "node": "^15.12.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.4",
+    "sockets": "^0.4.2"
+  },
+  "config": {
+    "server": {
+      "port": "8080"
+    },
+    "db": {
+      "url": "mongodb://localhost:27017/chat"
+    }
+  }
+}
